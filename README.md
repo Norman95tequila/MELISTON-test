@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Μέλια και Προϊόντα Μέλισσας</title>
+    <title>MELISTON</title>
     <!-- Προσθήκη εξωτερικού CSS αρχείου, εάν είναι απαραίτητο -->
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
-<body>
+<body> { font-family: Proxima Nova, Cambria;
+            margin: 0;
+            padding: 0;
+            background-color: #F5EFEE;
+            color: #17202A; }
 
 <!-- Μπάρα πλοήγησης -->
 <nav>
@@ -22,6 +26,7 @@
 
 <!-- Αρχική σελίδα -->
 <h1>Καλώς ήρθατε!</h1>
+  <img src="meliston logo.png" alt="MelistonLogo">
 <p>Καλωσήρθατε στην ιστοσελίδα μας για μέλια και προϊόντα μέλισσας.</p>
 
 <!-- Υποσελίδα προϊόντων -->
@@ -38,17 +43,17 @@
 </ul>
 
 <!-- Υποσελίδα βιογραφικού -->
-<h2>Βιογραφικό</h2>
-<p>Εδώ μπορείτε να διαβάσετε πληροφορίες για την επιχείρησή μας.</p>
+<h2>Σχετικά με το MELISTON</h2>
+<p>To MELISTON δημιουργήθηκε στην Τήνο, το 2011 η σχέση όμως της οικογένειάς μας με τη μελισσοκομία μετρά σχεδόν 100 χρόνια, όταν ο προπάππους του Αντώνη Δελλατόλα, ξεκίνησε από τους πρώτους τη μελισσοκομία στο νησί της Τήνου. Οι γνώσεις και η αγάπη για τις μέλισσες πέρασαν από γενιά σε γενιά και το 2011 γεννήθηκε το MELISTON.</p>
 
 <!-- Υποσελίδα επικοινωνίας -->
 <h2>Επικοινωνία</h2>
 <p>Για επικοινωνία, μπορείτε να μας βρείτε στα παρακάτω στοιχεία:</p>
 <ul>
-    <li>Email: example@example.com</li>
-    <li>Τηλέφωνο: 1234567890</li>
-    <li><a href="#">Instagram</a> (Instagram plug in)</li>
-    <li><a href="#">Facebook</a> (Facebook plug in)</li>
+    <li>Email: info@melistonhoney.com</li>
+    <li>Τηλέφωνο: 6943331383</li>
+    <a href="https://www.instagram.com/melistonhoney" target="_blank"><img src="icons8-instagram-96.png" alt="Instagram"></a>
+   <a href="https://www.facebook.com/melistonhoney" target="_blank"><img src="icons8-facebook-96.png" alt="Facebook"></a>
 </ul>
 
 <!-- Υποσελίδα άρθρων -->
