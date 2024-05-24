@@ -3,62 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MELISTON</title>
-    <!-- Προσθήκη εξωτερικού CSS αρχείου, εάν είναι απαραίτητο -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
-</head>
-<body> { font-family: Proxima Nova, Cambria;
+    <link rel="icon" href="meliston_logo.png" type="image/x-icon">
+    <title>Meliston - Αρχική Σελίδα</title>
+    <style>
+        body {
+            font-family: Proxima Nova, Arial;
             margin: 0;
             padding: 0;
             background-color: #F5EFEE;
-            color: #17202A; }
+            color: #17202A;
+        }
+        header {
+            background-color: #F5EFEE;
+            color: #17202A;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            width: 280px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .products, .gallery, .articles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product, .photo, .article {
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            background-color: #fff;
+        }
+        .contact {
+            background-color: #2d2d2d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
 
-<!-- Μπάρα πλοήγησης -->
+<header>
+    <img src="meliston logo.png" alt="MelistonLogo">
+</header>
+
 <nav>
-    <ul>
-        <li><a href="index.html" style="display: none;">Αρχική</a></li>
-        <li><a href="products.html">Προϊόντα</a></li>
-        <li><a href="about.html">Βιογραφικό</a></li>
-        <li><a href="contact.html">Επικοινωνία</a></li>
-        <li><a href="articles.html">Άρθρα</a></li>
-    </ul>
+    <a href="products.html">Προϊόντα</a>
+    <a href="about.html">Σχετικά</a>
+    <a href="contact.html">Επικοινωνία</a>
+    <a href="articles.html">Άρθρα</a>
 </nav>
 
-<!-- Αρχική σελίδα -->
-<h1>Καλώς ήρθατε!</h1>
-  <img src="meliston logo.png" alt="MelistonLogo">
-<p>Καλωσήρθατε στην ιστοσελίδα μας για μέλια και προϊόντα μέλισσας.</p>
+<div class="container">
+    <!-- Εδώ μπορείτε να προσθέσετε τα βίντεο ή το κινούμενο κείμενο -->
+    <h2>Καλωσήρθατε στο Meliston!</h2>
+    <p>Κείμενο ή βίντεο εδώ...</p>
+</div>
 
-<!-- Υποσελίδα προϊόντων -->
-<h2>Προϊόντα</h2>
-<ul>
-    <li><a href="product1.html">Μέλι θυμαρίσιο τήνου</a></li>
-    <li><a href="product2.html">Μέλι ερείκης τήνου</a></li>
-    <li><a href="product3.html">Μέλι ελάτου</a></li>
-    <li><a href="product4.html">Μέλι βελανιδιάς</a></li>
-    <li><a href="product5.html">Μέλι ανθέων</a></li>
-    <li><a href="product6.html">Βάμμα πρόπολης</a></li>
-    <li><a href="product7.html">Βασιλικός πολτός</a></li>
-    <li><a href="product8.html">Γύρη νωπή</a></li>
-</ul>
-
-<!-- Υποσελίδα βιογραφικού -->
-<h2>Σχετικά με το MELISTON</h2>
-<p>To MELISTON δημιουργήθηκε στην Τήνο, το 2011 η σχέση όμως της οικογένειάς μας με τη μελισσοκομία μετρά σχεδόν 100 χρόνια, όταν ο προπάππους του Αντώνη Δελλατόλα, ξεκίνησε από τους πρώτους τη μελισσοκομία στο νησί της Τήνου. Οι γνώσεις και η αγάπη για τις μέλισσες πέρασαν από γενιά σε γενιά και το 2011 γεννήθηκε το MELISTON.</p>
-
-<!-- Υποσελίδα επικοινωνίας -->
-<h2>Επικοινωνία</h2>
-<p>Για επικοινωνία, μπορείτε να μας βρείτε στα παρακάτω στοιχεία:</p>
-<ul>
-    <li>Email: info@melistonhoney.com</li>
-    <li>Τηλέφωνο: 6943331383</li>
-    <a href="https://www.instagram.com/melistonhoney" target="_blank"><img src="icons8-instagram-96.png" alt="Instagram"></a>
-   <a href="https://www.facebook.com/melistonhoney" target="_blank"><img src="icons8-facebook-96.png" alt="Facebook"></a>
-</ul>
-
-<!-- Υποσελίδα άρθρων -->
-<h2>Άρθρα</h2>
-<p>Εδώ θα δημοσιεύονται τα άρθρα και οι δημοσιεύσεις μας.</p>
+<footer>
+    <p>&copy; 2024 Meliston</p>
+</footer>
 
 </body>
 </html>
