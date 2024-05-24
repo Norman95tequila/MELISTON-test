@@ -78,7 +78,7 @@
 </header>
 
 <nav>
-    <a href="products.html">Προϊόντα</a>
+    <a href="Products.html">Προϊόντα</a>
     <a href="about.html">Σχετικά</a>
     <a href="contact.html">Επικοινωνία</a>
     <a href="articles.html">Άρθρα</a>
