@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="meliston_logo.png" type="image/x-icon">
+    <link rel="icon" href="meliston logo.png" type="image/x-icon">
     <title>Meliston - Αρχική Σελίδα</title>
     <style>
         body {
-            font-family: Proxima Nova, Arial;
+            font-family: Proxima Nova, Cambria;
             margin: 0;
             padding: 0;
             background-color: #F5EFEE;
@@ -20,7 +20,7 @@
             text-align: center;
         }
         header img {
-            width: 282px;
+            width: 30px;
         }
         nav {
             display: flex;
@@ -85,16 +85,16 @@
 </nav>
 
 <div class="container">
-    <!-- Εδώ μπορείτε να προσθέσετε τα βίντεο ή το κινούμενο κείμενο -->
-    <div class="container">
     <!-- Ενσωμάτωση βίντεο -->
     <h2>Καλωσήρθατε στο Meliston!</h2>
     <video width="100%" controls>
         <source src="IMG_0020.mov" type="video/mp4">
+        Το πρόγραμμα περιήγησής σας δεν υποστηρίζει την ετικέτα βίντεο.
+    </video>
 </div>
 
 <footer>
-    <p>&copy; 2024 Meliston</p>
+    <p> &copy; 2024 Meliston.</p> 
 </footer>
 
 </body>
