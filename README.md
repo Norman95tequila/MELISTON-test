@@ -20,7 +20,7 @@
             text-align: center;
         }
         header img {
-            width: 280px;
+            width: 282px;
         }
         nav {
             display: flex;
