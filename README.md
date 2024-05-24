@@ -87,7 +87,8 @@
 <div class="container">
     <!-- Εδώ μπορείτε να προσθέσετε τα βίντεο ή το κινούμενο κείμενο -->
     <h2>Καλωσήρθατε στο Meliston!</h2>
-    <p>Κείμενο ή βίντεο εδώ...</p>
+  <video width="100%" controls>
+        <source src="IMG_0020.mov" type="video/mp4">
 </div>
 
 <footer>
